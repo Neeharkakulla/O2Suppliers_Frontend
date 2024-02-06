@@ -1,0 +1,7 @@
+<div *ngIf="showImage">
+    <div id="imageOverlay" >
+        <img id="image" [src]="retrievedImage">
+        <br>
+        <button style="margin-left:53vw ;" class="btn btn-danger" (click)="close()"> close</button>
+    </div>
+</div>
